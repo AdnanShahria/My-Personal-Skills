@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "spin-subagents",
+  "version": "1.0.0",
+  "description": "Unified multi-agent orchestration engine merging /teamwork-preview, /boost, /grill-me, /plan, Spec-Kit, Apple Design, and Codebase Memory MCP into a single /spin_subagents command.",
+  "author": {
+    "name": "User Custom Automation"
+  },
+  "keywords": [
+    "subagents",
+    "multi-agent",
+    "orchestrator",
+    "spin-subagents",
+    "teamwork",
+    "boost",
+    "plan",
+    "spec-kit",
+    "apple-design",
+    "codebase-memory"
+  ],
+  "skills": ["skills/spin-subagents"]
+}

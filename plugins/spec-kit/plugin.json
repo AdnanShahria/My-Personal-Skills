@@ -1,0 +1,12 @@
+{
+  "name": "spec-kit",
+  "displayName": "GitHub Spec Kit",
+  "description": "Spec-Driven Development (SDD), Bug Fixing, and Idea Assessment toolkit for AI coding agents. Supports /spec and /speckit-* commands.",
+  "version": "1.2.1",
+  "logo": "assets/logo.webp",
+  "suggestedPrompts": [
+    "/spec specify Build a photo organizer with albums grouped by date",
+    "/spec plan for current specification",
+    "/spec tasks generate actionable tasks"
+  ]
+}

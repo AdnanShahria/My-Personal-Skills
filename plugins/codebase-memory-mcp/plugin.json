@@ -1,0 +1,24 @@
+﻿{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "codebase-memory-mcp",
+  "version": "1.0.0",
+  "description": "High-performance code intelligence engine and structural knowledge graph using tree-sitter. Query architecture, trace call graphs, search symbols, detect changes, and execute Cypher queries using 99% fewer tokens.",
+  "author": {
+    "name": "DeusData",
+    "url": "https://github.com/DeusData/codebase-memory-mcp"
+  },
+  "homepage": "https://github.com/DeusData/codebase-memory-mcp",
+  "repository": "https://github.com/DeusData/codebase-memory-mcp",
+  "license": "MIT",
+  "keywords": [
+    "codebase-memory",
+    "knowledge-graph",
+    "mcp",
+    "code-intelligence",
+    "ast",
+    "tree-sitter",
+    "cypher",
+    "call-graph"
+  ],
+  "skills": ["skills/codebase-memory-mcp"]
+}

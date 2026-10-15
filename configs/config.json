@@ -1,0 +1,99 @@
+{
+  "plugins": {
+    "android-cli-plugin": {
+      "installedFrom": {
+        "id": "antigravity-plugins-official/plugin/android-cli-plugin",
+        "marketplace": "antigravity-plugins-official",
+        "version": "1.0.16500706"
+      }
+    },
+    "chrome-devtools-plugin": {
+      "installedFrom": {
+        "id": "antigravity-plugins-official/plugin/chrome-devtools-plugin",
+        "marketplace": "antigravity-plugins-official",
+        "version": "0.21.0"
+      }
+    },
+    "data-agent-kit-plugin": {
+      "installedFrom": {
+        "id": "antigravity-plugins-official/plugin/data-agent-kit-plugin",
+        "marketplace": "antigravity-plugins-official",
+        "version": "1.0.0"
+      }
+    },
+    "flutter": {
+      "installedFrom": {
+        "id": "antigravity-plugins-official/plugin/flutter",
+        "marketplace": "antigravity-plugins-official",
+        "version": "1.0.5"
+      }
+    },
+    "gemini-api": {
+      "installedFrom": {
+        "id": "antigravity-plugins-official/plugin/gemini-api",
+        "marketplace": "antigravity-plugins-official",
+        "version": "2.3.0"
+      }
+    },
+    "google-antigravity-sdk": {
+      "installedFrom": {
+        "id": "antigravity-plugins-official/plugin/google-antigravity-sdk",
+        "marketplace": "antigravity-plugins-official",
+        "version": "0.0.9"
+      }
+    },
+    "google_maps_platform": {
+      "installedFrom": {
+        "id": "antigravity-plugins-official/plugin/google_maps_platform",
+        "marketplace": "antigravity-plugins-official",
+        "version": "1.0.0"
+      }
+    },
+    "humanizer": {
+      "installedFrom": {
+        "id": "antigravity-plugins-official/plugin/humanizer",
+        "marketplace": "antigravity-plugins-official",
+        "version": "3.1.0"
+      }
+    },
+    "modern-web-guidance-plugin": {
+      "installedFrom": {
+        "id": "antigravity-plugins-official/plugin/modern-web-guidance-plugin",
+        "marketplace": "antigravity-plugins-official",
+        "version": "0.0.194"
+      }
+    },
+    "science": {
+      "installedFrom": {
+        "id": "antigravity-plugins-official/plugin/science",
+        "marketplace": "antigravity-plugins-official",
+        "version": "1.2.4"
+      }
+    },
+    "spec-kit": {
+      "enabled": true
+    }
+  },
+  "userSettings": {
+    "artifactReviewMode": "ARTIFACT_REVIEW_MODE_TURBO",
+    "autoExecutionPolicy": "CASCADE_COMMANDS_AUTO_EXECUTION_EAGER",
+    "browserJsExecutionPolicy": "BROWSER_JS_EXECUTION_POLICY_TURBO",
+    "enableTerminalSandbox": false,
+    "globalPermissionGrants": {
+      "allow": [
+        "mcp(codebase-memory-mcp/list_projects)",
+        "mcp(codebase-memory-mcp/index_status)",
+        "mcp(codebase-memory-mcp/search_graph)",
+        "mcp(codebase-memory-mcp/search_code)",
+        "mcp(codebase-memory-mcp/get_architecture)",
+        "read_url(raw.githubusercontent.com)"
+      ]
+    },
+    "nonWorkspaceFileAccessPolicy": "AGENT_SETTING_POLICY_ALLOW",
+    "permissionPreset": "AGENT_PERMISSION_PRESET_TURBO",
+    "remoteControlEnabled": true,
+    "remoteControlHostname": "laptop-fa6o5fka-galactic-cosmos",
+    "themeMode": "THEME_MODE_INHERIT",
+    "useAiCredits": true
+  }
+}

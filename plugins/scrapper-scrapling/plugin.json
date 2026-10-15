@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "scrapper-scrapling",
+  "version": "0.4.15",
+  "description": "Adaptive, undetectable web scraper and MCP server powered by Scrapling (https://github.com/D4Vinci/Scrapling). Features anti-bot bypass (Cloudflare, Turnstile, Datadome), stealthy browser automation, auto-healing selectors, and AI-targeted markdown extraction.",
+  "author": {
+    "name": "D4Vinci",
+    "url": "https://github.com/D4Vinci"
+  },
+  "homepage": "https://github.com/D4Vinci/Scrapling",
+  "repository": "https://github.com/D4Vinci/Scrapling",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "scraping",
+    "scraper",
+    "scrapling",
+    "web-scraping",
+    "stealth",
+    "cloudflare-bypass",
+    "mcp",
+    "crawler"
+  ],
+  "skills": ["skills/scrapper-scrapling"]
+}

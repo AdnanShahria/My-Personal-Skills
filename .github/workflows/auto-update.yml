@@ -1,0 +1,38 @@
+name: Auto-Update Upstream Skills
+
+on:
+  schedule:
+    # Runs every Monday at 04:00 UTC
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-skills:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Run Upstream Sync
+        shell: pwsh
+        run: |
+          ./sync-upstream.ps1
+
+      - name: Create Pull Request with Updates
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore(deps): auto-update upstream skills and plugins"
+          title: "🤖 Weekly Auto-Update: Upstream Skills & Plugins"
+          body: |
+            ### Automated Upstream Synchronization
+            This PR updates external skills and plugins to their latest upstream GitHub commits according to `upstream-remotes.json`.
+
+            - Preserves custom `/spin_subagents` configuration.
+            - Updates `apple-design-skill`, `strix`, `codebase-memory-mcp`, `spec-kit`, `open-seo`, and other plugins.
+          branch: "auto-update/upstream-skills"
+          base: "main"
+          delete-branch: true

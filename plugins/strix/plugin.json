@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "strix",
+  "version": "1.7.0",
+  "description": "Autonomous AI penetration testing and application security platform powered by Strix (https://github.com/usestrix/strix). Runs dynamic security assessments with cooperating AI agents to discover, exploit, and validate vulnerabilities with working Proofs-of-Concept.",
+  "author": {
+    "name": "Strix",
+    "url": "https://strix.ai"
+  },
+  "homepage": "https://strix.ai",
+  "repository": "https://github.com/usestrix/strix",
+  "license": "Apache-2.0",
+  "keywords": [
+    "security",
+    "pentest",
+    "penetration-testing",
+    "vulnerabilities",
+    "owasp",
+    "strix",
+    "appsec"
+  ],
+  "skills": [
+    "skills/strix",
+    "skills/penetration-testing-with-strix",
+    "skills/find-security-vulnerabilities-in-code",
+    "skills/fix-security-vulnerabilities-with-strix",
+    "skills/managed-pentesting-with-strix",
+    "skills/owasp-top-10-testing",
+    "skills/ci-security-scanning-with-strix",
+    "skills/api-security-testing",
+    "skills/application-security-testing",
+    "skills/web-app-penetration-testing"
+  ]
+}

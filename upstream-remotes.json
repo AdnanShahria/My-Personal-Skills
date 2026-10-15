@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Upstream Remotes Registry",
+  "description": "Tracks original upstream GitHub repositories for all skills and plugins in ADNAN SKILLS.",
+  "remotes": {
+    "skills": {
+      "apple-design-skill": {
+        "repo": "https://github.com/dickwu/apple-design-skill.git",
+        "homepage": "https://github.com/dickwu/apple-design-skill",
+        "description": "Apple Human Interface Guidelines (HIG) review skill (120+ pages) and Liquid Glass design guide",
+        "branch": "main",
+        "path": "skills/apple-design-skill"
+      },
+      "cloudflare-security-audit": {
+        "repo": "https://github.com/cloudflare/security-audit-skill.git",
+        "homepage": "https://github.com/cloudflare/security-audit-skill",
+        "description": "Cloudflare source-first defensive security review and vulnerability hunting skill",
+        "branch": "main",
+        "path": "skills/cloudflare-security-audit"
+      }
+    },
+    "plugins": {
+      "spec-kit": {
+        "repo": "https://github.com/github/spec-kit.git",
+        "homepage": "https://github.com/github/spec-kit",
+        "description": "GitHub Spec Kit: Spec-Driven Development (SDD) specifying, planning, and task execution",
+        "branch": "main",
+        "path": "plugins/spec-kit"
+      },
+      "strix": {
+        "repo": "https://github.com/usestrix/strix.git",
+        "homepage": "https://github.com/usestrix/strix",
+        "description": "Autonomous AI penetration testing, OWASP Top 10 auditing, and auto-remediation platform",
+        "branch": "main",
+        "path": "plugins/strix"
+      },
+      "codebase-memory-mcp": {
+        "repo": "https://github.com/DeusData/codebase-memory-mcp.git",
+        "homepage": "https://github.com/DeusData/codebase-memory-mcp",
+        "description": "High-performance Tree-Sitter AST structural knowledge graph for 99% token reduction",
+        "branch": "main",
+        "path": "plugins/codebase-memory-mcp"
+      },
+      "open-seo": {
+        "repo": "https://github.com/every-app/open-seo.git",
+        "homepage": "https://github.com/every-app/open-seo",
+        "description": "OpenSEO organic search footprint, competitor analysis, keyword research, and audit suite",
+        "branch": "main",
+        "path": "plugins/open-seo"
+      },
+      "scrapper-scrapling": {
+        "repo": "https://github.com/D4Vinci/Scrapling.git",
+        "homepage": "https://github.com/D4Vinci/Scrapling",
+        "description": "Adaptive, undetectable web scraping, Cloudflare/Turnstile bypass, and content extraction",
+        "branch": "main",
+        "path": "plugins/scrapper-scrapling"
+      },
+      "humanizer": {
+        "repo": "https://github.com/blader/humanizer.git",
+        "homepage": "https://github.com/blader/humanizer",
+        "description": "AI writing pattern removal based on Wikipedia's 'Signs of AI writing'",
+        "branch": "main",
+        "path": "plugins/humanizer"
+      },
+      "geo-ready-website": {
+        "repo": "https://github.com/scrapelesshq/GEO-Ready-Website.git",
+        "homepage": "https://github.com/scrapelesshq/GEO-Ready-Website",
+        "description": "Generative Engine Optimization (GEO) audit engine for AI search engines",
+        "branch": "main",
+        "path": "plugins/geo-ready-website"
+      },
+      "mcp-gsc": {
+        "repo": "https://github.com/AminForou/mcp-gsc.git",
+        "homepage": "https://github.com/AminForou/mcp-gsc",
+        "description": "Google Search Console MCP server: search analytics, sitemaps, and indexing audits",
+        "branch": "main",
+        "path": "plugins/mcp-gsc"
+      },
+      "chrome-devtools-plugin": {
+        "repo": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
+        "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "description": "Chrome DevTools MCP server for browser debugging, a11y, and performance",
+        "branch": "main",
+        "path": "plugins/chrome-devtools-plugin"
+      },
+      "data-agent-kit-plugin": {
+        "repo": "https://github.com/GoogleCloudPlatform/data-agent-kit-plugin.git",
+        "homepage": "https://github.com/GoogleCloudPlatform/data-agent-kit-plugin",
+        "description": "Google Cloud Platform Data Agent Kit: BigQuery, Dataform, Spark, Airflow",
+        "branch": "main",
+        "path": "plugins/data-agent-kit-plugin"
+      },
+      "flutter": {
+        "repo": "https://github.com/flutter/agent-plugins.git",
+        "homepage": "https://github.com/flutter/agent-plugins",
+        "description": "Official Flutter agent plugins, testing, architecture, and a11y subagents",
+        "branch": "main",
+        "path": "plugins/flutter"
+      },
+      "gemini-api": {
+        "repo": "https://github.com/google-gemini/gemini-skills.git",
+        "homepage": "https://github.com/google-gemini/gemini-skills",
+        "description": "Google Gemini API, Gemini Live API, Omni Flash, and multimodal development skills",
+        "branch": "main",
+        "path": "plugins/gemini-api"
+      },
+      "modern-web-guidance-plugin": {
+        "repo": "https://github.com/GoogleChrome/modern-web-guidance.git",
+        "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
+        "description": "Official Chrome team modern web design, performance, and best practices",
+        "branch": "main",
+        "path": "plugins/modern-web-guidance-plugin"
+      }
+    },
+    "custom_built": {
+      "spin-subagents": {
+        "author": "Adnan",
+        "description": "Personal 5-phase multi-agent orchestrator merging teamwork-preview, boost, grill-me, plan, speckit, apple-design, codebase-memory-mcp",
+        "path": "plugins/spin-subagents"
+      }
+    }
+  }
+}

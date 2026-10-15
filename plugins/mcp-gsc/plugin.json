@@ -1,0 +1,10 @@
+{
+  "name": "mcp-gsc",
+  "version": "0.4.1",
+  "description": "Google Search Console MCP Server and SEO skills for performance analysis, cannibalization check, content opportunities, and indexing audits.",
+  "author": {
+    "name": "Amin Foroutan"
+  },
+  "repository": "https://github.com/AminForou/mcp-gsc",
+  "license": "MIT"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "geo-ready-website",
+  "version": "1.0.0",
+  "description": "Generative Engine Optimization (GEO) & local SEO readiness auditing for AI search engines (Perplexity, SearchGPT, Google AI Overviews, Gemini, Claude). Audits AI crawlability, llms.txt, Schema.org knowledge graph, semantic landmarks, and local business signals.",
+  "author": {
+    "name": "Scrapeless"
+  },
+  "repository": "https://github.com/scrapelesshq/GEO-Ready-Website",
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "open-seo",
+  "version": "1.0.0",
+  "description": "OpenSEO AI agent intelligence plugin: keyword research, competitor analysis, clustering, site audits, backlink prospecting, local SEO, and client-ready reporting.",
+  "author": {
+    "name": "Every App"
+  },
+  "repository": "https://github.com/every-app/open-seo",
+  "license": "MIT"
+}

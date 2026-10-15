@@ -1,0 +1,24 @@
+# Environment & secrets
+.env
+.env.local
+*.key
+*.pem
+
+# Dependencies & caches
+node_modules/
+.npm/
+__pycache__/
+*.pyc
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs & temp files
+*.log
+*.tmp
+tmp/
+scratch/

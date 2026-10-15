@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "scrapling": {
+      "command": "C:/Users/Adnan/.local/bin/scrapling-mcp.exe",
+      "args": []
+    }
+  }
+}

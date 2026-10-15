@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "openseo": {
+      "url": "https://app.openseo.so/mcp",
+      "serverUrl": "https://app.openseo.so/mcp"
+    }
+  }
+}
